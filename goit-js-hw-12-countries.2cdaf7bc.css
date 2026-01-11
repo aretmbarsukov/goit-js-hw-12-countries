@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 60px;
+  display: flex;
+}
+
+.box {
+  backdrop-filter: blur(10px);
+  background: #fffc;
+  border-radius: 16px;
+  width: 480px;
+  padding: 25px;
+  animation: .4s fadeIn;
+  box-shadow: 0 8px 25px #0000001a;
+}
+
+.data-input {
+  border: 2px solid #90caf9;
+  border-radius: 10px;
+  outline: none;
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 16px;
+  transition: all .25s;
+}
+
+.data-input:focus {
+  border-color: #42a5f5;
+  box-shadow: 0 0 8px #42a5f555;
+}
+
+.list {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin-top: 15px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.item {
+  cursor: pointer;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 12px 16px;
+  transition: all .2s;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item:hover {
+  background: #e3f2fd;
+}
+
+.sucess-box {
+  background: #fff;
+  border-radius: 14px;
+  margin-top: 20px;
+  padding: 20px;
+  animation: .4s fadeIn;
+  box-shadow: 0 6px 20px #00000014;
+}
+
+.title {
+  color: #1e88e5;
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.wrap {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  display: flex;
+}
+
+.box-one h3 {
+  color: #1565c0;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.popular-lan {
+  color: #424242;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.lenguage {
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.list-laun {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-laun li {
+  background: #e3f2fd;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.sucess-box img {
+  border-radius: 10px;
+  width: 140px;
+  box-shadow: 0 4px 12px #00000026;
+}
+/*# sourceMappingURL=goit-js-hw-12-countries.2cdaf7bc.css.map */
